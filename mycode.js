@@ -1,9 +1,10 @@
-function initialize(){
-    alert('Hello');
+function OtonMopo(name){
+    alert(name+" on mopo");
 }
 
   $(document).ready(function (){
 
-    initialize();
+    OtonMopo("Otto");
+    OtonMopo("Olli");
 
-})
+});
